@@ -1,0 +1,228 @@
+/*Fuentes*/
+/*regular*/
+@font-face {
+	font-family: 'gobCL';
+	src: 	url('fonts/gobCL.eot?#iefix') format('embedded-opentype'),
+			url('fonts/gobCL.otf') format('opentype'),
+			url('fonts/gobCL.woff') format('woff'),
+			url('fonts/gobCL.ttf') format('truetype'),
+			url('fonts/gobCL.svg#gobCL') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/*bold*/
+@font-face {
+  font-family: 'gobCL';
+  src: 	url('fonts/gobCL-Bold.eot?#iefix') format('embedded-opentype'), 
+	  	url('fonts/gobCL-Bold.otf')  format('opentype'),
+	    url('fonts/gobCL-Bold.woff') format('woff'),
+	  	url('fonts/gobCL-Bold.ttf')  format('truetype'),
+	  	url('fonts/gobCL-Bold.svg#gobCL-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+html,body{
+	margin: 0;
+	font-family: 'gobCL';	
+}
+header p{
+	color: #fff;
+}
+img.img-hover:hover{
+	transform : scale(1.1);
+    -moz-transform : scale(1.1);      
+    -webkit-transform : scale(1.1);   
+    -o-transform : scale(1.1);
+	transition: width 2s, height 2s, transform 2s;
+    -moz-transition: width 2s, height 2s, -moz-transform 2s;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    -o-transition: width 2s, height 2s,-o-transform 2s;
+	cursor: pointer;
+}
+.navbar-nav li a{
+	color: #fff;
+}
+a{
+	color: #fff;
+}
+strong{
+	color: #EF7B0B;
+	font-weight: 300;
+}
+.active {
+	color: #fff;
+	background-color: #EF7B0B;
+}
+.form-control{
+	border-radius: 0px;
+	border:0px;
+}
+.form-control:focus{
+	outline: none;
+}
+.navbar-nav li a:hover{
+	color: #EF7B0B;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+/*modals*/
+#myModalLabel.modal-title{
+	color: #fff;
+}
+.modal-content a{
+	color: #EF7B0B;
+}
+.modal-content{
+	border-radius: 0px;
+	box-shadow: none;
+	border:none;
+	background-color: rgba(255,255,255,0.85);
+}
+.navbar-toggle .icon-bar{
+	background-color: #fff;
+}
+.container-fluid{
+	padding: 0px;
+}
+.bg-header {
+	background-image: url(img/fondo.jpg);
+  	height: 100%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-header-2 {
+	background-image: url(img/fondo-2.jpg);
+  	height: 100%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.separacion25{
+	margin-top:25px; 
+}
+.separacion50{
+	margin-top:50px; 
+}
+.separacion70{
+	margin-top:70px; 
+}
+.separacion150{
+	margin-top:150px; 
+}
+.lefaltapading{
+	padding: 30px;
+}
+.bg-naranjo{
+	background-color:#EF7B0B;
+}
+.naranjo{
+	color:#EF7B0B;
+}
+.bg-naranjo-transparente{
+	background-color: rgba(239, 123, 11, 0.5);
+}
+.bg-blanco-transparente{
+	background-color: rgba(204, 204, 204, 0.4);
+}
+.bg-gris-transparente{
+	background-color: rgba(204, 204, 204, 0.2);
+}
+.espacio{
+	height: 350px;
+}
+.btn-naranjo{
+	background-color:#EF7B0B;
+	color:#fff;
+	border-radius: 0px;
+	width: 250px;
+}
+.btn-naranjo:focus{
+	outline: #EF7B0B;
+	-moz-outline: #EF7B0B;      
+	-webkit-outline: #EF7B0B;   
+	-o-outline: #EF7B0B;
+	-webkit-apparence:none;
+}
+
+.btn-naranjo:hover{
+	color: #fff;
+	background-color: rgba(255, 255, 255, 0.1);
+	border-color: #EF7B0B;
+}
+.btn-naranjo-2{
+	background-color:#EF7B0B;
+	color:#fff;
+	border-radius: 0px;
+	width: 250px;
+}
+.btn-naranjo-2:hover{
+	color: #EF7B0B;
+	background-color: rgba(255, 255, 255, 0.1);
+	border-color: #EF7B0B;
+}
+.btn-blanco{
+	color: #EF7B0B;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 0px;
+	width: 250px;
+}
+.btn-blanco:hover{
+	color:#EF7B0B;
+	border-color: #fff;
+	background-color: rgba(255, 255, 255, 0.0);
+}
+/*llamado*/
+.btn-naranjo-llamado{
+	background-color:#EF7B0B;
+	color:#fff;
+	width: 100%;
+	margin-top: -5px;
+	border-radius: 50px;
+}
+.btn-naranjo-llamado:hover{
+	color: #EF7B0B;
+	background-color: rgba(255, 255, 255, 0.1);
+	border-color: #EF7B0B;
+}
+.bg-gris{
+	background-color: #E6E6E6;
+	padding: 25px;
+	height: 70px;
+}
+.gris{
+	color: #ccc;
+}
+.bg-gris-oscuro{
+	background-color:#CCCCCC;
+	padding: 25px;
+	height: 70px;
+}
+.thumbnail{
+	border:none;
+	padding: 0px;
+}
+.thumbnail .bg-naranjo{
+	margin-bottom: 20px;
+}
+.thumbnail h4{
+	color: #fff;
+	margin: 0px;
+}
+.navbar{
+	margin-bottom: 0px;
+}
+/*footer estatico*/
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -275px;
+}
+.footer,
+.push {
+  min-height: 275px;
+}
+.footer{
+	border-top: 1px #ccc solid;
+	padding-top: 50px;
+}
